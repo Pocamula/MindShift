@@ -1,9 +1,7 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react-swc'
 
-// Configuración de Vite
+// https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/MindShift/',  // Cambia la ruta base si es necesario
 })
-
