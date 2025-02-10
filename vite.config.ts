@@ -1,8 +1,9 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react-swc'
 
-// https://vite.dev/config/
+// Configuración de Vite
 export default defineConfig({
   plugins: [react()],
-  base: '/MindShift/',  // Aquí se configura el subdirectorio donde estará alojada la app
+  base: '/MindShift/',  // Cambia la ruta base si es necesario
 })
+
